@@ -1,6 +1,6 @@
 # vuejs-energy
 
-Simple enery rating using vue.js component.
+Simple energy rating using vue.js component.
 
 <img src="doc/pictures/ges.jpg" width="300px" />
 <img src="doc/pictures/dpe.jpg" width="300px" />
