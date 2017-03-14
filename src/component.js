@@ -27,7 +27,7 @@
         },
         watch:{
             value: function(v){
-                this.rating.drawSelect(v);
+                this.rating.select(v);
             }
         },
         mounted: function () {
@@ -38,7 +38,7 @@
             this.rating = new EnergyRating(this.$el, settings);
             this.rating.draw();
             if (!!this.value){
-                this.rating.drawSelect(this.value);
+                this.rating.select(this.value);
             }
         },
         template: '<svg></svg>'

@@ -3,11 +3,14 @@
 
 <head>
     <title>Test - vue.js - energy rating</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 </head>
 
 <body>
     <div id="app">
+        <input type="text" v-model="ges" placeholder="GES" />
         <energy preset="ges" v-model="ges"></energy>
+        <input type="text" v-model="dpe" placeholder="DPE" />
         <energy preset="dpe" v-model="dpe"></energy>
     </div>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.8/vue.min.js"></script>
