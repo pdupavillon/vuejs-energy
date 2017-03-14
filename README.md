@@ -11,7 +11,7 @@ Simple enery rating using vue.js component.
 ...
 <script src="vuejs.energy.min.js"></script>
 ...
-<energy presets v-model="energy" preset="dpe"></energy>
+<energy v-model="energy" preset="dpe"></energy>
 ...
 <script>
 new Vue({
@@ -64,7 +64,7 @@ var settings = [
 * `color` = row color
 * `letter` = letter which is display at the end of the colored line
 * `legend` = text which is display at the beginning of the colored line
-* `isValid` = method called to cheeck whereas the input value match the colored line (see : `select` method)
+* `isValid` = method called to check if the input value match the colored line (called when v-model is provided)
 * `text_color` = (optional) the font color (default black)
 
 
